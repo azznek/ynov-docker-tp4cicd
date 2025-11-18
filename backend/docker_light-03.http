@@ -1,0 +1,19 @@
+### Docker GET health
+GET http://localhost:8181/api/health
+
+### Docker GET /api/items
+GET http://localhost:8181/api/items
+
+### Local GET health
+GET http://localhost:8888/api/health
+
+### Local GET /api/items
+GET http://localhost:8888/api/items
+
+### Local POST /api/items
+POST http://localhost:8888/api/items
+Accept: application/json
+
+{
+  "name":"youpi!"
+}
